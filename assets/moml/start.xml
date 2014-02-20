@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Created by MOSPI.org on 09.20.2012
+
+    You can freely copy, distribute, modify for commercial or non-commercial purposes.
+-->
+<MOML>
+    <DATASOURCE id="coverflowData" src="/www/res/coverflow/coverflowData.xml"/>
+
+    <UILAYOUT portrait="320,460" landscape="320,460">
+        <WINDOW layout="0,0,320,460">
+            <WEBVIEW2 id="webview" layout="0,0,320,460" src="www/index.html" supportZoom="zoom" clientControl="false"/>
+        </WINDOW>
+    </UILAYOUT>
+
+    <FUNCTION id="notification_restart">
+        <FUNCTIONITEM cmd="{device.systemPopup('Alert', 'You selected button 1', 'OK', '', '')}"/>
+    </FUNCTION>
+
+    <FUNCTION id="notification_Exit">
+        <FUNCTIONITEM cmd="{device.systemPopup('Alert', 'You selected button 2', 'OK', '', '')}"/>
+    </FUNCTION>
+</MOML>

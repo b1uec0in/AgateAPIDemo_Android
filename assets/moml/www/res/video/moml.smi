@@ -1,0 +1,113 @@
+<SAMI>
+<HEAD>
+<TITLE>Android MOML Project Sample 2012.01</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:2pt; margin-right:2pt; margin-bottom:1pt;
+    margin-top:1pt; font-size:20pt; text-align:center;
+    font-family:Arial, Sans-serif; font-weight:bold; color:white;
+    }
+.ENCC {Name: English; lang:en-US; SAMI_TYPE: CC;}-->
+</STYLE>
+</HEAD>
+<BODY>
+<SYNC Start=0><P Class=ENCC>
+'Citrine framework' uses XML as the programming language.
+<SYNC Start=4000><P Class=ENCC>
+So, you can make high quality applications easily!<br>
+Let's see samples!
+<SYNC Start=7772><P Class=ENCC>
+The first thing is about the transition effect.
+<SYNC Start=11300><P Class=ENCC>
+The 'NAVIGATIONCONTAINER' provides many transition effects.
+<SYNC Start=16284><P Class=ENCC>
+This is flip effect.
+<SYNC Start=19290><P Class=ENCC>
+door effect.
+<SYNC Start=22513><P Class=ENCC>
+and mosaic.
+<SYNC Start=24500><P Class=ENCC>
+If you want to change the effect,
+<SYNC Start=26076><P Class=ENCC>
+just change the transitionIn/OutEffect attribute of the VIEWITEM element.
+<SYNC Start=34071><P Class=ENCC>
+then, build and run application.
+<SYNC Start=43095><P Class=ENCC>
+Now, you can see the different effect.
+<SYNC Start=52133><P Class=ENCC>
+Next section is about the animation effect.
+<SYNC Start=54663><P Class=ENCC>
+Let's see animation effect sample!
+<SYNC Start=56500><P Class=ENCC>
+The background moves to the right.
+<SYNC Start=62014><P Class=ENCC>
+The ship moves on the lake.
+<SYNC Start=66700><P Class=ENCC>
+This is another sample
+<SYNC Start=69350><P Class=ENCC>
+scaling,
+<SYNC Start=70100><P Class=ENCC>
+showing
+<SYNC Start=71300><P Class=ENCC>
+rotaing
+<SYNC Start=72897><P Class=ENCC>
+and frame animation.
+<SYNC Start=77078><P Class=ENCC>
+The citrine framework includes various componenets as a default.
+<SYNC Start=80100><P Class=ENCC>
+You can change UI object and style easily.
+<SYNC Start=81900><P Class=ENCC>
+This is 'GALLERY' UI object.
+<SYNC Start=85000><P Class=ENCC>
+You can see the 'dot' on the bottom.
+<SYNC Start=88382><P Class=ENCC>
+Let's change the style from 'dot' to 'thumbnail'.
+<SYNC Start=94502><P Class=ENCC>
+And run application.
+<SYNC Start=103232><P Class=ENCC>
+It's 'GALLERY' UI object  with 'thumbnail' style.
+<SYNC Start=117476><P Class=ENCC>
+You can also change the style by replacing to the similar UI object.
+<SYNC Start=122800><P Class=ENCC>
+Let's change the 'GALLERY' UI object to the 'COVERFLOW'.
+<SYNC Start=130000><P Class=ENCC>
+And run application.
+<SYNC Start=134000><P Class=ENCC>
+Now, you can see the 'COVERFLOW'.
+<SYNC Start=143315><P Class=ENCC>
+The citrine framework provides the screen rotation effect.
+<SYNC Start=151531><P Class=ENCC>
+Some device does not have any screen rotation effect.
+<SYNC Start=157901><P Class=ENCC>
+but, you can emulate the screen rotation effect.
+<SYNC Start=173000><P Class=ENCC>
+Next section is about the 'Theme'.
+<SYNC Start=178021><P Class=ENCC>
+This is a sample of the basic android UI controls.
+<SYNC Start=188062><P Class=ENCC>
+If you want iOS style, define a new 'theme xml'.
+<SYNC Start=195148><P Class=ENCC>
+By changing a single theme attribute,<br>
+you can change the whole application UI.
+<SYNC Start=209237><P Class=ENCC>
+The citrine framework provides real dpi.<br>
+You can use the real size on any devices.
+<SYNC Start=214369><P Class=ENCC>
+This is a battery image.
+<SYNC Start=223875><P Class=ENCC>
+If you use the 'cm' unit for the layout values,
+<SYNC Start=235748><P Class=ENCC>
+you can get the exact same size as the real size.
+<SYNC Start=259000><P Class=ENCC>
+The final section is a tip about the updating resource.
+<SYNC Start=266928><P Class=ENCC>
+The citrine framework supprots the http protocol.
+<SYNC Start=273439><P Class=ENCC>
+You don't need to rebuild. just refresh.
+<SYNC Start=282800><P Class=ENCC>
+Thank you. <br>
+This sample was made from MOML(Mobile Object Markup Language) that allows you to easily build functional, native application for mobile device.<br>
+The MOML library is free, and doesn't require you to know the details of how the mobile device builds its views.
+<SYNC Start=344503><P Class=ENCC>&nbsp;
+</BODY>
+</SAMI>
