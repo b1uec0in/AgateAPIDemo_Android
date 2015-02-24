@@ -12,8 +12,8 @@ function roundNumber(num) {  // Helper function
 
 // api-accelerometer
 function getCurrentAcceleration() {
-	agate.device.accelerometor.addEventListener('accelerometer', 'onUpdateCurrentAccelerometor');
-	agate.device.accelerometor.start();
+	agate.device.accelerometer.addEventListener('accelerometer', 'onUpdateCurrentAccelerometer');
+	agate.device.accelerometer.start();
 }
 
 var accelStatus = 'off';
@@ -21,12 +21,12 @@ function toggleAcceleration() {
 	
 	if (accelStatus == 'off')
 	{
-		agate.device.accelerometor.addEventListener('accelerometer', 'onUpdateAccelerometor');
-		agate.device.accelerometor.start();
+		agate.device.accelerometer.addEventListener('accelerometer', 'onUpdateAccelerometer');
+		agate.device.accelerometer.start();
 		accelStatus = 'on';
 	} else {
-		agate.device.accelerometor.stop();
-		agate.device.accelerometor.removeEventListener('accelerometer', 'onUpdateAccelerometor');
+		agate.device.accelerometer.stop();
+		agate.device.accelerometer.removeEventListener('accelerometer', 'onUpdateAccelerometer');
 		accelStatus = 'off';
 		document.getElementById('x').innerHTML = '0';
 		document.getElementById('y').innerHTML = '0';
@@ -36,20 +36,20 @@ function toggleAcceleration() {
 	
 }
 
-function onUpdateAccelerometor(param) {
+function onUpdateAccelerometer(param) {
     document.getElementById('x').innerHTML = roundNumber(param.x);
     document.getElementById('y').innerHTML = roundNumber(param.y);
     document.getElementById('z').innerHTML = roundNumber(param.z);
     document.getElementById('accel_timestamp').innerHTML = roundNumber(param.speed);
 }
 
-function onUpdateCurrentAccelerometor(param) {
+function onUpdateCurrentAccelerometer(param) {
     document.getElementById('x').innerHTML = roundNumber(param.x);
     document.getElementById('y').innerHTML = roundNumber(param.y);
     document.getElementById('z').innerHTML = roundNumber(param.z);
     document.getElementById('accel_timestamp').innerHTML = roundNumber(param.speed);
-	agate.device.accelerometor.stop();
-	agate.device.accelerometor.removeEventListener('accelerometer', 'onUpdateCurrentAccelerometor');
-	agate.device.accelerometor.removeEventListener('accelerometer', 'onUpdateAccelerometor');
+	agate.device.accelerometer.stop();
+	agate.device.accelerometer.removeEventListener('accelerometer', 'onUpdateCurrentAccelerometer');
+	agate.device.accelerometer.removeEventListener('accelerometer', 'onUpdateAccelerometer');
 	status = '0';
 }
